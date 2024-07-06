@@ -10,7 +10,7 @@
     width: 100%;
     height: 100vh;
     background: #ece6ff;
-    display: inline-block;
+    /*display: inline-block;*/
 }
 
 .side-nav{
@@ -98,11 +98,24 @@
     margin-left: 250px;
     padding: 30px;
     display: inline-block;
+    /*justify-content: center;*/
+    /*align-content: center;*/
 }
 
-.scrolling_effect{
+.main-content .scrolling-effect{
     font-size: 5em;
-    letter-spacing: 10px;
+    letter-spacing: 8px;
+    font-family: monospace;
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+/* Scrolling Effect (Text) */
+.scrolling-effect{
+    /*font-size: 5em;*/
+    /*letter-spacing: 8px;*/
     font-family: monospace;
 
     border-right: 5px;
@@ -111,10 +124,22 @@
     white-space: nowrap;
     overflow: hidden;
     animation:
-        typing 4s
+        typing 3s
 }
 @keyframes typing {
     from {width: 0}
 }
+
+.subtitle{
+    /*Centre*/
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+    font-family: monospace;
+    padding-top: 2em;
+}
+
+
 
 

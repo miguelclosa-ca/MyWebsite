@@ -230,6 +230,10 @@ li{
 }
 
 #main-image{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
     padding-left: 250px;
     margin: auto;
     max-width: 100%;

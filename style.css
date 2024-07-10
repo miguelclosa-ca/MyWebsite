@@ -97,9 +97,7 @@
     width: calc(100% - 250px);
     margin-left: 250px;
     padding: 30px;
-    display: inline-block;
-    /*justify-content: center;*/
-    /*align-content: center;*/
+    display: flex;
 }
 
 .main-content .scrolling-effect{
@@ -148,6 +146,10 @@
 
     font-family: monospace;
     padding-top: 2em;
+}
+
+#contact{
+    font-size: 100px;
 }
 
 

@@ -5,9 +5,13 @@
     font-family: 'Calibri', 'sans-serif';
 }
 
+li{
+    list-style: none;
+}
+
 /* Main page related */
 .page-contents{
-    width: 100%;
+    /*width: 100%;*/
     height: auto;
     background: #ece6ff;
 
@@ -15,6 +19,10 @@
     /*justify-content: center;*/
     /*align-content: center;*/
     flex-direction: column;
+
+    width: calc(100% - 250px);
+    margin-left: 250px;
+    padding: 30px;
 
     /*display: inline-block;*/
 }
@@ -107,9 +115,9 @@
     align-content: center;
     flex-direction: column;
 
-    width: calc(100% - 250px);
-    margin-left: 250px;
-    padding: 30px;
+    /*width: calc(100% - 250px);*/
+    /*margin-left: 250px;*/
+    /*padding: 30px;*/
 
 }
 
@@ -117,7 +125,7 @@
     display: flex;
     justify-content: center;
     align-content: center;
-    /*padding-bottom: 30px;*/
+    padding-bottom: 15px;
 
     font-family: monospace;
     border-right: 5px;
@@ -156,7 +164,7 @@
     align-content: center;
 }
 
-
+/* Resume pdf as image */
 #my-resume-scan{
     display: flex;
     justify-content: center;
@@ -194,9 +202,40 @@
     padding-top: 2em;
 }
 
-#contact{
-    font-size: 10px
+.contact{
+    padding-top: 3em;
+    font-size: 1.125vw;
+    padding-bottom: 1em;
+
 }
+#foreword{
+    font-size: 0.8vw;
+}
+
+.contact-info{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+}
+
+.contact-left{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+#main-image{
+    padding-left: 250px;
+    margin: auto;
+    height: auto;
+}
+
+.social-media-links{
+    font-size: 1vw;
+}
+
 
 
 

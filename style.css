@@ -5,11 +5,17 @@
     font-family: 'Calibri', 'sans-serif';
 }
 
-/* Header related */
-.header{
+/* Main page related */
+.page-contents{
     width: 100%;
     height: auto;
     background: #ece6ff;
+
+    display: flex;
+    /*justify-content: center;*/
+    /*align-content: center;*/
+    flex-direction: column;
+
     /*display: inline-block;*/
 }
 
@@ -90,9 +96,49 @@
     top:77.5%;
 }
 
-/* End of Header */
+/* End of Navigation Bar */
+
 
 /* Start of page contents*/
+
+.page-title{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+
+    width: calc(100% - 250px);
+    margin-left: 250px;
+    padding: 30px;
+
+}
+
+#scrolling-title{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    /*padding-bottom: 30px;*/
+
+    font-family: monospace;
+    border-right: 5px;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 3.2vw;
+
+}
+
+#subtitle{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+    font-family: monospace;
+    font-size: .75vw;
+    padding-top: 2em;
+}
+
+
 .main-content{
     width: calc(100% - 250px);
     margin-left: 250px;
@@ -149,7 +195,7 @@
 }
 
 #contact{
-    font-size: 100px;
+    font-size: 10px
 }
 
 

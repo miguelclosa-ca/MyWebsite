@@ -8,7 +8,7 @@
 /* Header related */
 .header{
     width: 100%;
-    height: 100vh;
+    height: auto;
     background: #ece6ff;
     /*display: inline-block;*/
 }
@@ -112,10 +112,20 @@
     align-content: center;
 }
 
+
+#my-resume-scan{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-top: 50px;
+
+    margin: auto;
+    max-width: 100%;
+    height: auto;
+}
+
 /* Scrolling Effect (Text) */
 .scrolling-effect{
-    /*font-size: 5em;*/
-    /*letter-spacing: 8px;*/
     font-family: monospace;
 
     border-right: 5px;

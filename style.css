@@ -12,19 +12,16 @@ li{
 /* Main page related */
 .page-contents{
     /*width: 100%;*/
-    height: auto;
+    /*height: auto;*/
     background: #ece6ff;
 
     display: flex;
-    /*justify-content: center;*/
-    /*align-content: center;*/
     flex-direction: column;
 
     width: calc(100% - 250px);
     margin-left: 250px;
     padding: 30px;
-
-    /*display: inline-block;*/
+    padding-bottom: 150px;
 }
 
 .side-nav{
@@ -115,10 +112,10 @@ li{
     align-content: center;
     flex-direction: column;
 
-    /*width: calc(100% - 250px);*/
-    /*margin-left: 250px;*/
-    /*padding: 30px;*/
+}
 
+.typewriter{
+    display: inline-block;
 }
 
 #scrolling-title{
@@ -127,13 +124,20 @@ li{
     align-content: center;
     padding-bottom: 15px;
 
+    font-size: 3.2vw;
+    letter-spacing: 10px;
     font-family: monospace;
-    border-right: 5px;
+
     width: 100%;
     white-space: nowrap;
     overflow: hidden;
-    font-size: 3.2vw;
+    animation: typing 3.5s ;
 
+
+}
+
+@keyframes typing{
+    from {width: 0}
 }
 
 #subtitle{
@@ -143,7 +147,8 @@ li{
 
     font-family: monospace;
     font-size: .75vw;
-    padding-top: 2em;
+    padding-top: 0.25em;
+    padding-bottom: 0.75em;
 }
 
 
@@ -154,7 +159,7 @@ li{
     display: flex;
 }
 
-.main-content .scrolling-effect{
+.main-content{
     font-size: 5em;
     letter-spacing: 8px;
     font-family: monospace;
@@ -176,22 +181,6 @@ li{
     height: auto;
 }
 
-/* Scrolling Effect (Text) */
-.scrolling-effect{
-    font-family: monospace;
-
-    border-right: 5px;
-
-    width: 100%;
-    white-space: nowrap;
-    overflow: hidden;
-    animation:
-        typing 3s
-}
-@keyframes typing {
-    from {width: 0}
-}
-
 .subtitle{
     /*Centre*/
     display: flex;
@@ -199,7 +188,7 @@ li{
     align-content: center;
 
     font-family: monospace;
-    padding-top: 2em;
+    padding-top: 1em;
 }
 
 .contact{

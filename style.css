@@ -203,6 +203,13 @@ li{
 }
 
 .contact{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+    font-family: monospace;
+
+
     padding-top: 3em;
     font-size: 1.125vw;
     padding-bottom: 1em;
@@ -210,6 +217,7 @@ li{
 }
 #foreword{
     font-size: 0.8vw;
+    font-weight: lighter;
 }
 
 .contact-info{
@@ -229,11 +237,21 @@ li{
 #main-image{
     padding-left: 250px;
     margin: auto;
+    max-width: 100%;
     height: auto;
+}
+
+.social-media{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
 }
 
 .social-media-links{
     font-size: 1vw;
+    font-weight: lighter;
+    padding: 10px;
 }
 
 

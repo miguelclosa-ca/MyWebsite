@@ -9,12 +9,14 @@ li{
     list-style: none;
 }
 
+body{
+    /* For all space below or above*/
+    background: #ece6ff;
+}
+
 /* Main page related */
 .page-contents{
-    /*width: 100%;*/
-    /*height: auto;*/
-    background: #ece6ff;
-
+    height: auto;
     display: flex;
     flex-direction: column;
 

@@ -289,7 +289,7 @@ body{
 .p-specifications{
     display: flex;
     justify-content: center;
-    align-content: center;
+    align-items: center;
 
     font-weight: lighter;
     font-family: monospace;
@@ -303,5 +303,43 @@ body{
     font-family: monospace;
 }
 
+
+/* Resume.html resume download area */
+
+.resume-download-space{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    padding-top: 50px;
+}
+
+#p-download{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+     font-weight: lighter;
+    font-family: monospace;
+    font-size: 2.5vw;
+    padding-bottom: 15px;
+}
+#resume-dl-button{
+    font-family: monospace;
+    font-size: 1.5vw;
+
+    color: black;
+    border: 1px solid #8d6aff;
+    border-radius: 20px;
+
+    padding: 18px 36px;
+    display: inline-block;
+
+    letter-spacing: 1px;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 #ece6ff;
+    transition: ease-out 0.2s;
+}
 
 

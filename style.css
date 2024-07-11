@@ -255,6 +255,23 @@ body{
     padding: 10px;
 }
 
+#about-computers{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+    font-family: monospace;
+    font-size: 2vw;
+}
+
+.computer-section{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+}
+
 
 
 

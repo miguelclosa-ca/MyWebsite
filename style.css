@@ -173,22 +173,50 @@ body{
 }
 
 
-.main-content{
-    width: calc(100% - 250px);
-    margin-left: 250px;
-    padding: 30px;
-    display: flex;
+/*.main-content{*/
+/*    width: calc(100% - 250px);*/
+/*    margin-left: 250px;*/
+/*    padding: 30px;*/
+/*    display: flex;*/
+/*}*/
+
+/*.main-content{*/
+/*    font-size: 5em;*/
+/*    letter-spacing: 8px;*/
+/*    font-family: monospace;*/
+
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-content: center;*/
+/*}*/
+
+@media only screen and (max-width: 600px){
+
+    .page-contents{
+        /*height: auto;*/
+        /*display: flex;*/
+        /*flex-direction: column;*/
+
+        width: calc(100% - 110px);
+        margin-left: 110px;
+        /*padding: 30px;*/
+        /*padding-bottom: 150px;*/
+    }
+
+    .page-contents .contact-info{
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            flex-direction: column;
+            padding-top: 35px;
+
+            /*   Row gap*/
+
+
+    }
 }
 
-.main-content{
-    font-size: 5em;
-    letter-spacing: 8px;
-    font-family: monospace;
 
-    display: flex;
-    justify-content: center;
-    align-content: center;
-}
 
 /* Resume pdf as image */
 #my-resume-scan{

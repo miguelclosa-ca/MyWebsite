@@ -103,6 +103,25 @@ body{
     top:77.5%;
 }
 
+@media only screen and (max-width: 600px){
+    .side-nav{
+        width: 110px;
+
+    }
+
+    .nav-link li a p {
+        display: none;
+    }
+
+    .nav-link li a i{
+        margin-right: 0;
+    }
+
+    .nav-link li a{
+        justify-content: center;
+    }
+}
+
 /* End of Navigation Bar */
 
 

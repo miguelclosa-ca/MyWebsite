@@ -145,7 +145,10 @@ body{
     align-content: center;
     padding-bottom: 15px;
 
-    font-size: 3.2vw;
+    /*font-size: 3.2vw;*/
+    font-size: 3.2rem;
+
+
     letter-spacing: 10px;
     font-family: monospace;
 
@@ -192,6 +195,11 @@ body{
 
 @media only screen and (max-width: 600px){
 
+    #scrolling-title{
+        font-size: 2.25rem;
+    }
+
+
     .page-contents{
         /*height: auto;*/
         /*display: flex;*/
@@ -226,7 +234,7 @@ body{
         display: flex;
         justify-content: center;
         align-items: center;
-        /*font-size: 1vw;*/
+        font-size: 2rem;
     }
 
     .contact-right #main-image{
@@ -238,6 +246,16 @@ body{
         max-width: 100%;
 
     }
+
+    .contact{
+        font-size: 2rem;
+    }
+
+    .social-media-links{
+        font-size: 1rem;
+    }
+
+
 }
 
 
@@ -273,12 +291,13 @@ body{
 
 
     padding-top: 3em;
-    font-size: 1.125vw;
+    /*font-size: 1.125rem ;*/
+    font-size: 2rem;
     padding-bottom: 1em;
 
 }
 #foreword{
-    font-size: 0.8vw;
+    font-size: 2rem  ;
     font-weight: lighter;
 }
 
@@ -320,7 +339,7 @@ body{
 }
 
 .social-media-links{
-    font-size: 1vw;
+    font-size: 2rem;
     font-weight: lighter;
     padding: 10px;
 }

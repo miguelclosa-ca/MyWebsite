@@ -170,7 +170,8 @@ body{
     align-content: center;
 
     font-family: monospace;
-    font-size: .75vw;
+    font-size: 0.95rem;
+    /*font-size: .75vw;*/
     padding-top: 0.25em;
     padding-bottom: 0.75em;
 }
@@ -196,7 +197,11 @@ body{
 @media only screen and (max-width: 600px){
 
     #scrolling-title{
-        font-size: 2.25rem;
+        font-size: 1.5rem;
+    }
+
+    #subtitle{
+        font-size: 1rem;
     }
 
 
@@ -205,9 +210,11 @@ body{
         /*display: flex;*/
         /*flex-direction: column;*/
 
+
+
         width: calc(100% - 110px);
         margin-left: 110px;
-        /*padding: 30px;*/
+        /*padding: 10px;*/
         /*padding-bottom: 150px;*/
     }
 

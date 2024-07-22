@@ -177,23 +177,6 @@ body{
 }
 
 
-/*.main-content{*/
-/*    width: calc(100% - 250px);*/
-/*    margin-left: 250px;*/
-/*    padding: 30px;*/
-/*    display: flex;*/
-/*}*/
-
-/*.main-content{*/
-/*    font-size: 5em;*/
-/*    letter-spacing: 8px;*/
-/*    font-family: monospace;*/
-
-/*    display: flex;*/
-/*    justify-content: center;*/
-/*    align-content: center;*/
-/*}*/
-
 @media only screen and (max-width: 600px){
 
     #scrolling-title{
@@ -436,6 +419,13 @@ body{
     cursor: pointer;
     box-shadow: inset 0 0 0 0 #ece6ff;
     transition: ease-out 0.2s;
+}
+
+.my-projects{
+    display: flex;
+    /*justify-content: center;*/
+    flex-direction: row;
+    padding-bottom: 2rem;
 }
 
 

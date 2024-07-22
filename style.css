@@ -258,8 +258,11 @@ body{
     padding-top: 50px;
 
     margin: auto;
-    max-width: 100%;
-    height: auto;
+    /*width: auto;*/
+    /*max-width: 100%;*/
+    /*height: auto;*/
+    width: 95%;
+    height: 1000px;
 }
 
 .subtitle{

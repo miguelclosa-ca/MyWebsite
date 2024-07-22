@@ -177,23 +177,6 @@ body{
 }
 
 
-/*.main-content{*/
-/*    width: calc(100% - 250px);*/
-/*    margin-left: 250px;*/
-/*    padding: 30px;*/
-/*    display: flex;*/
-/*}*/
-
-/*.main-content{*/
-/*    font-size: 5em;*/
-/*    letter-spacing: 8px;*/
-/*    font-family: monospace;*/
-
-/*    display: flex;*/
-/*    justify-content: center;*/
-/*    align-content: center;*/
-/*}*/
-
 @media only screen and (max-width: 600px){
 
     #scrolling-title{
@@ -436,6 +419,47 @@ body{
     cursor: pointer;
     box-shadow: inset 0 0 0 0 #ece6ff;
     transition: ease-out 0.2s;
+}
+
+/* projects.html area */
+
+
+.my-projects{
+    display: flex;
+    /*justify-content: center;*/
+    flex-direction: row;
+    padding-bottom: 2rem;
+}
+
+.my-projects-image{
+    padding-left: 10px;
+    padding-right: 10px;
+
+    /*margin: auto;*/
+    max-width: 100%;
+    height: auto;
+
+}
+.my-projects-text{
+    display: flex;
+    flex-direction: column;
+}
+
+.projects-title a {
+    display: flex;
+    justify-content: center;
+
+    text-decoration: none;
+
+    font-weight: lighter;
+    font-family: monospace;
+    font-size: 1vw;
+
+}
+
+.projects-description{
+    font-family: monospace;
+    font-size: 0.85vw;
 }
 
 

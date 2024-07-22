@@ -421,11 +421,45 @@ body{
     transition: ease-out 0.2s;
 }
 
+/* projects.html area */
+
+
 .my-projects{
     display: flex;
     /*justify-content: center;*/
     flex-direction: row;
     padding-bottom: 2rem;
+}
+
+.my-projects-image{
+    padding-left: 10px;
+    padding-right: 10px;
+
+    /*margin: auto;*/
+    max-width: 100%;
+    height: auto;
+
+}
+.my-projects-text{
+    display: flex;
+    flex-direction: column;
+}
+
+.projects-title a {
+    display: flex;
+    justify-content: center;
+
+    text-decoration: none;
+
+    font-weight: lighter;
+    font-family: monospace;
+    font-size: 1vw;
+
+}
+
+.projects-description{
+    font-family: monospace;
+    font-size: 0.85vw;
 }
 
 

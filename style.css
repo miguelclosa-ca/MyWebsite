@@ -176,7 +176,7 @@ body{
     padding-bottom: 0.75em;
 }
 
-
+/* When the browser display is mobile-sized */
 @media only screen and (max-width: 600px){
 
     #scrolling-title{
@@ -189,9 +189,6 @@ body{
 
 
     .page-contents{
-        /*height: auto;*/
-        /*display: flex;*/
-        /*flex-direction: column;*/
 
 
 
@@ -213,12 +210,6 @@ body{
         flex-direction: column;
         padding-right: 0px;
     }
-
-    /*.contact{*/
-        /*display: flex;*/
-        /*justify-content: left;*/
-
-    /*}*/
 
     #foreword{
         display: flex;
@@ -243,6 +234,23 @@ body{
 
     .social-media-links{
         font-size: 1rem;
+    }
+
+
+/*    for projects.html */
+    .page-contents .my-projects{
+        /*display: flex;*/
+        flex-direction: column;
+    }
+
+    .page-contents .my-projects-image{
+        padding-top: 10px;
+        height: auto;
+        max-width: 100%;
+    }
+
+    .my-projects .my-projects-text{
+        font-size: 20rem;
     }
 
 

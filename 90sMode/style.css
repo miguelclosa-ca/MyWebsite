@@ -1,0 +1,36 @@
+body{
+    background: url("images/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+
+.content{
+    width: 900px;
+    border: #fff 1px solid;
+    margin: auto;
+    text-align: center;
+}
+
+.contact-information p{
+    text-align: center;
+}
+
+h1, h2, p {
+    color: black;
+}
+
+
+h1{
+    font-size: 32px;
+}
+
+marquee{
+    padding-bottom:25px;
+    color: green;
+    font-style: italic;
+}
+
+tr td h2, p{
+    text-align: left;
+}

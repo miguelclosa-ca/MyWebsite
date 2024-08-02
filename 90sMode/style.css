@@ -12,6 +12,10 @@ body{
     text-align: center;
 }
 
+.contact-information p{
+    text-align: center;
+}
+
 h1, h2, p {
     color: black;
 }
@@ -24,6 +28,7 @@ h1{
 marquee{
     padding-bottom:25px;
     color: green;
+    font-style: italic;
 }
 
 tr td h2, p{

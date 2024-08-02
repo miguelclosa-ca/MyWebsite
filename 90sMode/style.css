@@ -4,3 +4,20 @@ body{
     background-size: cover;
     color: #fff;
 }
+
+.content{
+    width: 780px;
+    border: #fff 1px solid;
+    margin: auto;
+    text-align: center;
+}
+
+h1{
+    font-size: 32px;
+    color: black;
+}
+
+marquee{
+    padding-bottom:25px;
+    color: black;
+}

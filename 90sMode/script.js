@@ -1,18 +1,21 @@
 
-var weekdays = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+var weekdays = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
+var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
 
 
 // Get date
-var dateData = new Date()
+let currDate = new Date()
 
+// Weekday, Hours, Minutes
+let wd = currDate.getDay()
+let h = currDate.getHours()
+let m = currDate.getMinutes()
 
-// Get time and date
-var currentHour = dateData.getHours()
-var currentMin = dateData.getMinutes()
-var currentDay = dateData.getDay()
+// Month, day
+let month = currDate.getMonth()
+let d = currDate.getDay()
+let y = currDate.getFullYear()
 
+var date = document.getElementById('currentDay').innerHTML = `${weekdays[wd]}, ${months[month]} ${d}, ${y}`
 
-document.getElementById('currentWkDay').textContent = weekdays[currentDay]
-
-
-document.getElementById('currentTime').textContent = `${currentHour}:${currentMin}`
+// weekday.innerHTML = weekdays[wd]

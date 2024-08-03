@@ -16,6 +16,6 @@ let month = currDate.getMonth()
 let d = currDate.getDay()
 let y = currDate.getFullYear()
 
-var date = document.getElementById('currentDay').innerHTML = `${weekdays[wd]}, ${months[month]} ${d}, ${y}`
+var date = document.getElementById('currentDay').innerHTML = `Today is ${weekdays[wd]}, ${months[month]} ${d}, ${y}`
 
 // weekday.innerHTML = weekdays[wd]

@@ -6,16 +6,21 @@ var months = ["January", "February", "March", "April", "May", "June", "July", "A
 // Get date
 let currDate = new Date()
 
-// Weekday, Hours, Minutes
+// Weekday
 let wd = currDate.getDay()
-let h = currDate.getHours()
-let m = currDate.getMinutes()
+
 
 // Month, day
 let month = currDate.getMonth()
 let d = currDate.getDay()
 let y = currDate.getFullYear()
 
-var date = document.getElementById('currentDay').innerHTML = `Today is ${weekdays[wd]}, ${months[month]} ${d}, ${y}`
+// Time-related (Hours and minutes)
+let h = currDate.getHours()
+let m = currDate.getMinutes()
+
+
+
+var date = document.getElementById('currentDay').innerHTML = `Today is ${weekdays[wd]}, ${months[month]} ${d}, ${y}. ${h}:${m}`
 
 // weekday.innerHTML = weekdays[wd]

@@ -30,11 +30,12 @@ function updateCurrentTime(){
 
 
     // For something with the id "currentDay", change the contents to the current date.
-    var date = document.getElementById('currentDay').innerHTML = `Today is ${weekdays[wd]}, ${months[month]} ${d}, ${y}. ${h}:${m}:${s.toString().padStart(2,"0")}`
+    var date = document.getElementById('currentDay').innerHTML = `Today is ${weekdays[wd]}, ${months[month]} ${d}, ${y}. ${h}:${m.toString().padStart(2,"0")}:${s.toString().padStart(2,"0")}`
 
 } // function updateCurrentTime()
 
 updateCurrentTime()
+
 // run the same function every 1000ms
 setInterval(updateCurrentTime, 1000)
 

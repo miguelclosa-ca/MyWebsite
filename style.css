@@ -416,6 +416,7 @@ body{
     display: flex;
     flex-direction: column;
 
+
 }
 
 
@@ -424,6 +425,9 @@ body{
     justify-content: center;
     align-items: center;
     padding: 1em;
+
+    font-family: monospace;
+    font-weight: lighter;
 }
 
 .cert-bg{
@@ -446,6 +450,11 @@ body{
     flex-direction: column;
     gap: 0.25rem;
     padding: 1rem;
+}
+
+.cert-content .date, h3{
+    font-family: monospace;
+    font-weight: lighter;
 }
 
 

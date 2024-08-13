@@ -11,7 +11,12 @@ li{
 
 body{
     /* For all space below or above*/
-    background: #ece6ff;
+    /*background: #ece6ff;*/
+    /*background: linear-gradient(to bottom right, #B19CD8, #E6D1F2);*/
+    /*background: radial-gradient(#B19CD8, #E6D1F2);*/
+    background: linear-gradient(#c7a9e9, #a1c4fd);
+
+
 }
 
 /* Main page related */

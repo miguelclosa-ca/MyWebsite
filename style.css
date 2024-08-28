@@ -11,7 +11,8 @@ li{
 
 body{
     /* For all space below or above*/
-    background: #ece6ff;
+    /*Taken from https://colorkit.co/gradient/047caf-a8e4ea/*/
+    background: linear-gradient(#047caf, #a8e4ea);
 }
 
 /* Main page related */
